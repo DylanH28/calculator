@@ -9,34 +9,29 @@
     </head>
 
     <body>
-        <h1>Dylan's Calculator</h1>
         <div class="calculator">
             <div class="display">
-                <div class="previous">2 +</div>
-                <div class="current">2</div>
+                <div data-previous-operand class="previousOperand"></div>
+                <div data-current-operand class="currentOperand"></div>
             </div>
-            <button class="spanTwo">AC</button>
-            <button>DEL</button>
-            <button>÷</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>*</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>+</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>-</button>
-            <button>.</button>
-            <button>0</button>
-            <button class="spanTwo">=</button>
-        </div>
-        <div class="footer">
-            <div class="copyright">Copyright © 2022 DylanH28</div>
-            <a href="https://github.com/DylanH28"><img src="img/github.png" height="40px"></a>
+            <button data-all-clear class="spanTwo">AC</button>
+            <button data-delete>DEL</button>
+            <button data-operation>÷</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>*</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>+</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation>-</button>
+            <button data-number>.</button>
+            <button data-number>0</button>
+            <button data-equals class="spanTwo">=</button>
         </div>
         <script src="script.js"></script>
     </body>
